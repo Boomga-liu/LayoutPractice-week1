@@ -1,9 +1,3 @@
-* {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -11,6 +5,7 @@
 
 .name {
     margin-bottom: 48px;
+    line-height: 94px;
 }
 
 h1 {
@@ -18,7 +13,12 @@ h1 {
 }
 
 .bottom-line {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+
+.title {
+    line-height: 45px;
 }
 
 .headshot {
@@ -28,6 +28,18 @@ h1 {
 
 h2 {
     font-size: 32px;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.mt-8 {
+    margin-top: 8px;
 }
 
 .mb-24 {
@@ -92,6 +104,7 @@ span {
 
 .education li {
     position: relative;
+    line-height: 30px;
 }
 
 .education li::before {
@@ -192,6 +205,10 @@ span {
     background-color: #96A9C4;
 }
 
+.work-content ul li {
+    line-height: 35px;
+}
+
 .work img {
     margin: 8px 0;
 }
@@ -200,7 +217,6 @@ span {
     width: 642px;
     font-size: 20px;
     font-weight: 200;
-    margin-bottom: 32px;
 }
 
 .mb-32 {
@@ -216,7 +232,10 @@ footer {
     font-size: 24px;
     line-height: 2em;
     color: #fff;
-    font-weight: 100;
+}
+
+.contact span {
+    line-height: 28px;
 }
 
 .icon {
@@ -225,6 +244,16 @@ footer {
 
 .text-center {
     text-align: center;
+}
+
+.text-center ul {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .mr-24 {
